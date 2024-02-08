@@ -1,4 +1,5 @@
-## Contains ability to create new repos in Bitbucket. 
+## Contains ability to create new Git repos.
+Currently this supports Bitbucket, adding in GitHub as a target.
 
 1. Download this package.
 
