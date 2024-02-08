@@ -25,4 +25,4 @@ SET SVNREPO=0.
 
 ----------------------------------------------------------------------------------------------------------------------
 
-Note: This will add the scan_it.json file, LFS .gitattributes and a gitignore file to get you started.
+Note: This will add the LFS .gitattributes and a gitignore file to get you started.
