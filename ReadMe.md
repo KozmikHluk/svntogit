@@ -20,9 +20,11 @@ This section is the section for migrating SVN repos to a git repository, this wa
 
 3. Now configure the values in RunGitMigration.cmd for your project, JIRA-ID and default branch and ost importantly set value for migration
    
+'''bash
 :: Set this parameter to 0 to create empty git repos from within here.
 :: Set this to 1 to migrate your svn repo to git.
-SET SVNREPO=0.
+SET SVNREPO=0
+'''
 
 4. Now add the repo names in the svnurl_ANYREPO.txt ";" delimited file for the project.
 
