@@ -64,7 +64,7 @@ git commit * -m "JIRA ID: %JIRAID% New Repository"
 git remote add origin !newrepourl!
 git branch -m master main
 
-IF NOT EXIST scan_it.json copy !CD!\..\scan_it.json scan_it.json
+IF NOT EXIST repoconfig.json copy !CD!\..\repoconfig.json repoconfig.json
 
 git add .
 git commit -m"JIRA ID: %JIRAID% New Repository"
@@ -113,7 +113,7 @@ git commit * -m "JIRA ID: %JIRAID% New Repository"
 git remote add origin !newrepourl!
 git branch -m master main
 
-IF NOT EXIST scan_it.json copy !CD!\..\scan_it.json scan_it.json
+IF NOT EXIST repoconfig.json copy !CD!\..\repoconfig.json repoconfig.json
 
 git add .
 git commit -m"JIRA ID: %JIRAID% New Repository"
